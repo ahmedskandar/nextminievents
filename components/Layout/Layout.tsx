@@ -8,7 +8,6 @@ import { childrenProps } from "../../interfaces";
 
 const Layout: FC<childrenProps> = ({ children }) => {
   const router = useRouter();
-
   const param = router.pathname;
 
   return (
