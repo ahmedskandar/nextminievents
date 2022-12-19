@@ -7,6 +7,10 @@ export interface props {
   desc: string;
 }
 
+export interface childrenProps {
+  children: React.ReactNode;
+}
+
 export interface state {
   dashboard: {
     id: number;

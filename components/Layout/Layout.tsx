@@ -3,12 +3,10 @@ import Head from "next/head";
 import MainHeader from "./MainHeader";
 import MainFooter from "./MainFooter";
 import { useRouter } from "next/router";
+import { childrenProps } from "../../interfaces";
 
-interface props {
-  children: React.ReactNode;
-}
 
-const Layout: FC<props> = ({ children }) => {
+const Layout: FC<childrenProps> = ({ children }) => {
   const router = useRouter();
 
   const param = router.pathname;
