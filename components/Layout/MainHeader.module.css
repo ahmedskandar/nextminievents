@@ -1,0 +1,75 @@
+.header{
+    height: 10vh;
+    color:white;
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+
+.header_Cont{
+    width: 85%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar ul li a{
+    font-weight: bold;
+    font-size: large;
+}
+
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.active {
+    color: gray;
+}
+
+.link:hover{
+    font-style: italic;
+    color: lightgray;
+
+}
+
+@media (max-width: 650px) {
+
+    .header{
+        height: 11vh;
+    }
+
+    .header_Cont{
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+    
+}
+
+
+/* .hero{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80);
+} */
