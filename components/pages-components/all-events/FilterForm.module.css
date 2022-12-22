@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+
+.form input {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+.container div label{
+  margin: 10px;
+}
+
+.container div select{
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+}

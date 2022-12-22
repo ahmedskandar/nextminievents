@@ -21,6 +21,12 @@ h1 {
   font-style: italic;
 }
 
+.center{
+  text-align: center;
+  margin-top: 200px;
+  font-size: large;
+}
+
 .textarea{
   width: 250px;
   height: 100px;
