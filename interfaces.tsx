@@ -7,10 +7,6 @@ export interface props {
   desc: string;
 }
 
-export interface filterState {
-  onFilter: (year: string, month: string) => void;
-}
-
 export interface childrenProps {
   children: React.ReactNode;
 }

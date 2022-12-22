@@ -1,8 +1,10 @@
+import { useRouter } from "next/router";
 import React, { FC, useRef } from "react";
-import { filterState } from "../../../interfaces";
 import classes from "./FilterForm.module.css";
 
-const FilterForm: FC<filterState> = (props) => {
+const FilterForm: FC = () => {
+
+  const router = useRouter();
 
   const yearRef = useRef<HTMLSelectElement>(null);
   const monthRef = useRef<HTMLSelectElement>(null);
@@ -13,7 +15,8 @@ const FilterForm: FC<filterState> = (props) => {
     const year = yearRef.current!.value;
     const month = monthRef.current!.value;
 
-    props.onFilter(year, month);
+    router.push(`/events/${year}/${month}`);
+
 
   }
 
