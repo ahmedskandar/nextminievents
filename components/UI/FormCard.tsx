@@ -1,12 +1,8 @@
 import React, { FC, ReactNode } from "react";
 import classes from "./FormCard.module.css";
+import { formCardProps } from "../../interfaces";
 
-interface props {
-    heading: string;
-    children: ReactNode;
-}
-
-const FormCard: FC<props> = (props) => {
+const FormCard: FC<formCardProps> = (props) => {
 
   return (
     <section>

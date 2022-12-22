@@ -7,6 +7,11 @@ export interface props {
   desc: string;
 }
 
+export interface formCardProps {
+  heading: string;
+  children: React.ReactNode;
+}
+
 export interface childrenProps {
   children: React.ReactNode;
 }
