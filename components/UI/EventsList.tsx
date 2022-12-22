@@ -6,6 +6,7 @@ import { state2 } from "../../interfaces";
 const EventsList: FC<state2> = (props) => {
   const eventsList = props.events.map((event) => (
     <SingleFeaturedEvent
+    desc={event.desc}
       key={event.id}
       id={event.id}
       date={event.date}
