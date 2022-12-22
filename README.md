@@ -1,4 +1,4 @@
-##About
+#About
 
 This is a front-end only Next Js TypeScript mini project that is about technology events, including event date, summary etc Since no backend code is present, data is saved via state temporarily.
 
