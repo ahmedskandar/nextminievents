@@ -28,8 +28,8 @@ const SingleEvent: FC = () => {
         <Image
           className={classes.image}
           src={specificEvent!.imagePath}
-          width={500}
-          height={500}
+          width={1500}
+          height={1000}
           alt={`Image showing ${specificEvent!.title}`}
         />
         <div className={classes.iconCont}>

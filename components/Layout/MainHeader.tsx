@@ -26,9 +26,14 @@ const MainHeader: FC = () => {
               <Link className={router.pathname == "/events" ? classes.active : classes.link} href={"/events"}>Events</Link>
             </li>
             {isLoggedIn ? (
+              <>
               <li>
                 <Link className={router.pathname == "/dashboard" ? classes.active : classes.link} href={"/dashboard"}>Dashboard</Link>
               </li>
+              <li>
+                <Link className={classes.link} href={"/logout"}>Logout</Link>
+              </li>
+              </>
             ) : (
               <li>
                 <Link className={router.pathname == "/login" ? classes.active : classes.link} href={"/login"}>Login</Link>

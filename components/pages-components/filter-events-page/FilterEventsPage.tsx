@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import EventsList from "../../UI/EventsList";
 import { state } from "../../../interfaces";
 import classes from "./FilterEventsPage.module.css";
+import Link from "next/link";
 
 const FilteredEvents: FC = () => {
   const events = useSelector((state: state) => state.dashboard);
@@ -51,6 +52,7 @@ const humanReadableDate = new Date(year, month-1).toLocaleDateString('en-US', {
     <div className={classes.container}>
         <div><h1>Events for {humanReadableDate}</h1></div>
       <EventsList events={filteredEvents} />
+      <Link className={classes.btn} href={'/events'}>Back to Events</Link>
     </div>
   );
 };
