@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import SingleFeaturedEvent from "./SingleFeaturedEvent";
-import classes from "./EventsList.module.css";
+import classes from "../styles/EventsList.module.css";
 import { state2 } from "../../interfaces";
 
 const EventsList: FC<state2> = (props) => {

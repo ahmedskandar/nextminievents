@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import classes from "./IconCard.module.css";
+import classes from "../../styles/IconCard.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChalkboardUser } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";

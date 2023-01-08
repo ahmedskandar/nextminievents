@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import classes from "./MainHeader.module.css";
+import classes from '../styles/MainHeader.module.css'
 import Link from "next/link";
 import { useSelector } from "react-redux";
 import { useRouter } from "next/router";

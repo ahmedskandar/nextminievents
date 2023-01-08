@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import classes from "./AllEvents.module.css";
+import classes from "../../styles/AllEvents.module.css";
 import EventsList from "../../UI/EventsList";
 import { useSelector } from "react-redux";
 import { state } from "../../../interfaces";

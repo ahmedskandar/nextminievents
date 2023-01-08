@@ -1,5 +1,5 @@
 import React, { FC, ReactNode } from "react";
-import classes from "./FormCard.module.css";
+import classes from "../styles/FormCard.module.css";
 import { formCardProps } from "../../interfaces";
 
 const FormCard: FC<formCardProps> = (props) => {

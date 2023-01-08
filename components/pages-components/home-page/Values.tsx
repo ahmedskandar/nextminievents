@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import classes from "./Values.module.css";
+import classes from "../../styles/Values.module.css";
 import IconCard from "./IconCard";
 
 const Values: FC = () => {

@@ -3,7 +3,7 @@ import React, { FC } from "react";
 import { useSelector } from "react-redux";
 import EventsList from "../../UI/EventsList";
 import { state } from "../../../interfaces";
-import classes from "./FilterEventsPage.module.css";
+import classes from "../../styles/FilterEventsPage.module.css";
 import Link from "next/link";
 
 const FilteredEvents: FC = () => {

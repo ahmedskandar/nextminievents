@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React, { FC, useRef } from "react";
-import classes from "./FilterForm.module.css";
+import classes from "../../styles/FilterForm.module.css";
 
 const FilterForm: FC = () => {
 

@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import classes from "./Summary.module.css";
+import classes from "../../styles/Summary.module.css";
 import Image from "next/image";
 
 const Summary: FC = () => {

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { FC } from "react";
-import classes from "./SingleEvent.module.css";
+import classes from "../../styles/SingleEvent.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faCalendar } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/router";

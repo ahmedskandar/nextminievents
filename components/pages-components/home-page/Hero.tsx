@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import classes from "./Hero.module.css";
+import classes from "../../styles/Hero.module.css";
 
 const Hero: FC = () => {
   return (
