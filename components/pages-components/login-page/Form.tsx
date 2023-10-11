@@ -56,7 +56,7 @@ const Form: FC = () => {
       <input ref={passwordRef} type="text" placeholder="Enter password*" />
       <br />
       <input onClick={onSubmitHandler} type="submit" value="Login" />
-      <div style={{fontSize: 'small'}}>Username = 'Ahmed' <br /> Password = 123</div>
+<div style={{fontSize: 'small'}}>Username = &apos;Ahmed&apos; <br /> Password = 123</div>
       {errorState && <div className="red">{errorState}</div>}
     </FormCard>
   );
